@@ -131,9 +131,12 @@ def calculate_frequencies():
 # Display your wordcloud image
 def calculate_frequencies():
     myimage = calculate_frequencies()
-    calculate_frequencies=""" Humpty Dumpty, is a character in an  English nursery rhyme, probably originally a 
-    riddle and one of the best known in the English-speaking world. He is typically portrayed as an anthropomorphic
-    egg, though he is not explicitly described as such."""
+    calculate_frequencies=""" Microblogging is the practice of posting small pieces of digital content—which could be text, 
+    pictures, links, short videos, or other media—on the Internet. Microblogging offers a portable communication mode that feels organic and spontaneous 
+    to many users. It has captured the public imagination, in part because the short posts are easy to read on the go or when waiting. Friends use it to 
+    keep in touch, business associates use it to coordinate meetings or share useful resources, and celebrities and politicians (or their publicists) 
+    microblog about concert dates, lectures, book releases, or tour schedules. A wide and growing range of add-on tools enables sophisticated updates 
+    and interaction with other applications."""
     plt.imshow(myimage, interpolation = 'nearest') 
     plt.axis('off')
     plt.show()
